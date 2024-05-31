@@ -28,13 +28,13 @@ import { LibreSearch, VideoInformation } from "./lib";
 
 // Main
 async function main() {
-    // The library is asynchronous by design
-    const returnVideos: Array<VideoInformation> = await LibreSearch.search("Vylet Pony Hush!");
+  // The library is asynchronous by design
+  const returnVideos: Array<VideoInformation> = await LibreSearch.search("Vylet Pony Hush!");
 
-    // Print out the results
-    console.log(returnVideos)
+  // Print out the results
+  console.log(returnVideos);
 
-    // or maybe the first one
-    console.log(returnVideos[0]);
+  // or maybe the first one
+  console.log(returnVideos[0]);
 }
 ```
