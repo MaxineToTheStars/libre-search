@@ -1,0 +1,20 @@
+{
+  "name": "libre-spot",
+  "version": "0.1.0",
+  "description": "Search YouTube without the need of an API key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"TODO: Write unit tests\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "@MaxineToTheStars",
+    "url": "https://github.com/MaxineToTheStars"
+  },
+  "license": "GPL-3.0-only",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
